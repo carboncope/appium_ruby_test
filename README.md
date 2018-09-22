@@ -14,3 +14,9 @@ https://wiki.saucelabs.com/display/DOCS/Running+Automated+Website+Tests+for+Desk
     caps['platformName'] = 'iOS'
     caps['browserName'] = ''
     ```
+
+FAQ
+1. How to get list of files in sauce-storage (List files in temporary storage)
+   1. https://saucelabs.com/rest/v1/storage/YOUR_USERNAME
+   1. username = saucelabs username
+   1. password = Access Key in USERNAME->User Settings->Access Key
